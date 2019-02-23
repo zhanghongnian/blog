@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://zhanghongnian.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Even - A super concise theme for Hugo"
@@ -17,7 +17,7 @@ pygmentsCodefencesGuessSyntax = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
 disqusShortname = "zhnliving"      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "UA-134925760-1"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
@@ -149,7 +149,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     options = ""            # default: "{theme: 'simple'}"
 
   [params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
-    enable = false
+    enable = true
     siteUV = true
     sitePV = true
     pagePV = true
